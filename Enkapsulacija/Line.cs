@@ -21,7 +21,7 @@ namespace Enkapsulacija
             else
             {
 
-                double x = (other.L - l) / (k - other.K);
+                double x = (other.l - l) / (k - other.K);
                 double y = k * x + l;
                 return new Point(x, y);
             }
