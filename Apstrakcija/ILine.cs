@@ -16,10 +16,18 @@ namespace Apstrakcija
 
         public readonly double X;
         public readonly double Y;
+
+        public override string ToString()
+        {
+            return $"({X}, {Y})";
+        }
     }
 
     public interface ILine
     {
         Point? Intersaction(ILine other);
+
+        double K { get; }
+        double L { get; }
     }
 }
