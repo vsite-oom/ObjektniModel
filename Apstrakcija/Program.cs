@@ -30,6 +30,8 @@ namespace Apstrakcija
             {
                 Console.WriteLine("Invalid entry");
             }
+
+            Console.ReadKey();
         }
     }
 }
