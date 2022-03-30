@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Polimorfizam
 {
+    /// <summary>
+    /// Example of polymorphism
+    /// </summary>
     class Program
     {
+
         static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
