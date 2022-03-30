@@ -8,6 +8,11 @@ namespace Polimorfizam
 {
     class Program
     {
+        /// <summary>
+        /// Example of polymorphism
+        /// </summary>
+        /// <param name="args"></param>
+
         static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
