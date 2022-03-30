@@ -7,10 +7,14 @@ using System.Threading.Tasks;
 namespace Polimorfizam
 {
     /// <summary>
-    /// Example of polymorphism
+    /// Cherry pick demo
     /// </summary>
     class Program
     {
+        /// <summary>
+        /// ouyeah
+        /// </summary>
+        /// <param name="args"></param>
 
         static void Main(string[] args)
         {
