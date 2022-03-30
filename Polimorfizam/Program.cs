@@ -6,8 +6,15 @@ using System.Threading.Tasks;
 
 namespace Polimorfizam
 {
+    /// <summary>
+    /// Example
+    /// </summary>
     class Program
     {
+        /// <summary>
+        /// desc
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
