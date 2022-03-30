@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace Polimorfizam
 {
+    /// <summary>
+    /// Example of polyamorphism
+    /// </summary>
+
     class Program
     {
         static void Main(string[] args)
