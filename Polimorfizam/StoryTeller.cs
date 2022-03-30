@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Polimorfizam
 {
+    /// <summary>
+    /// Cherry pick vol2
+    /// </summary>
     class StoryTeller
     {
         public StoryTeller(IFormatWriter write)
