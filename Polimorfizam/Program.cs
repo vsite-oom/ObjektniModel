@@ -12,10 +12,6 @@ namespace Polimorfizam
 
     class Program
     {
-        /// <summary>
-        /// Description
-        /// </summary>
-        /// <param name="args"></param>
         static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
