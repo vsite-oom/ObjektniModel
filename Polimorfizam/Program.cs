@@ -22,7 +22,7 @@ namespace Polimorfizam
 
             IFormatWriter writer = null;
 
-            Console.WriteLine("Select format of the output: (P)lain or (H)tml");
+            Console.WriteLine("Select format of the output: (P)lain, (H)tml or (J)son.");
             string response = Console.ReadLine();
 
             switch (response.ToLower()[0])
@@ -32,6 +32,9 @@ namespace Polimorfizam
                     break;
                 case 'h':
                     writer = new HtmlWriter();
+                    break;
+                case 'j':
+                        writer = new JsonWriter();
                     break;
                 default:
                     Console.WriteLine("Invalid entry");
