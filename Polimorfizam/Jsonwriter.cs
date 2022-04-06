@@ -6,28 +6,23 @@ using System.Threading.Tasks;
 
 namespace Polimorfizam
 {
-    class StoryTeller
+    class Jsonwriter : IFormatWriter
     {
-
-        public StoryTeller(IFormatWriter writer)
-        {
-            this.writer = writer;
-        }
-
-        private IFormatWriter writer;
         public void WriteParagraph(string text)
         {
-            writer.WriteParagraph(text);
+            Console.WriteLine($"{{\"paragraph\":\"{text}\"}}");
         }
 
         public void WriteHeading1(string caption)
         {
-            writer.WriteHeading1(caption);
+            Console.WriteLine($"{{\"heading1\":\"{caption}\"}}");
+            Console.WriteLine(new string('=', caption.Length * 2));
         }
 
         public void WriteHeading2(string caption)
         {
-            writer.WriteHeading2(caption);
+            Console.WriteLine($"{{\"heading2\":\"{caption}\"}}");
+            Console.WriteLine(new string('-', caption.Length * 2));
         }
     }
 }

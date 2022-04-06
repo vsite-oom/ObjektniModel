@@ -13,9 +13,9 @@ namespace Polimorfizam
 
 
         void WriteHeading1(string caption);
-       
 
-        void WriteHeading2(string caption)
+
+        void WriteHeading2(string caption);
 
     }
 }
